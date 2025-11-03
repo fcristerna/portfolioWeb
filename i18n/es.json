@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "recognition": "Certificaciones",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "hero": {
+    "role": "Junior Data Science Engineer",
+    "slogan": "Construyo proyectos de datos y ML con enfoque práctico.",
+    "contactBtn": "Contactar",
+    "cvBtn": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Soy estudiante de IA y Ciencia de Datos apasionado por transformar datos en soluciones prácticas. Mi enfoque abarca desde el análisis exploratorio y limpieza de datos hasta el desarrollo de modelos de Machine Learning listos para producción. Disfruto documentar procesos, medir el impacto real de los modelos y aprender continuamente sobre nuevas tecnologías. Actualmente me especializo en Python, SQL, frameworks de ML (TensorFlow, PyTorch) y flujos de MLOps en Azure.",
+    "languages": {
+      "title": "Idiomas",
+      "spanish": "Español",
+      "english": "Inglés",
+      "german": "Alemán",
+      "french": "Francés",
+      "native": "Nativo",
+      "c1": "C1",
+      "a2": "A2"
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "dataml": "Data Science",
+    "backend": "Machine Learning",
+    "frontend": "MLOps"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "viewRepo": "Ver Repositorio",
+    "viewDemo": "Ver Demo",
+    "notAvailable": "Demo no disponible",
+    "project1": {
+      "title": "Blitz Scan - Herramienta de Seguridad",
+      "bullet1": "Aplicación web para análisis de seguridad y pentesting",
+      "bullet2": "Desarrollo colaborativo Full-Stack con React y Flask",
+      "bullet3": "Integración con OpenAI API para análisis inteligente"
+    },
+    "project2": {
+      "title": "Análisis de Churn de Clientes",
+      "bullet1": "Modelo predictivo para identificar clientes en riesgo",
+      "bullet2": "Visualización de métricas y matriz de confusión",
+      "bullet3": "Interfaz interactiva con Streamlit"
+    },
+    "project3": {
+      "title": "Transfer Learning en Azure ML",
+      "bullet1": "Implementación de transfer learning con TensorFlow",
+      "bullet2": "Registro y tracking de experimentos estructurados",
+      "bullet3": "Comparación y optimización de modelos en Azure ML"
+    }
+  },
+  "recognition": {
+    "title": "Certificaciones",
+    "addCertification": "Agrega tus certificaciones aquí",
+    "editHint": "Haz clic en cualquier texto para editar",
+    "courseName": "Nombre del curso",
+    "issuer": "Emisor",
+    "date": "Fecha",
+    "viewCertificate": "Ver certificado",
+    "completed": "Completado",
+    "inProgress": "En curso",
+    "planned": "Planificado",
+    "progress": "Progreso"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto o propuesta? ¡Hablemos!",
+    "response": "Respondo normalmente en 24-48h",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "kaggle": "Kaggle"
+  },
+  "footer": {
+    "rights": "© 2025 Fernando Cristerna",
+    "built": "Construido con HTML, Bootstrap y cariño."
+  }
+}

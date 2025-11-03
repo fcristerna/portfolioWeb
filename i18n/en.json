@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "recognition": "Certifications",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "role": "Junior Data Science Engineer",
+    "slogan": "I build data and ML projects with a practical approach.",
+    "contactBtn": "Contact",
+    "cvBtn": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm an AI and Data Science student passionate about transforming data into practical solutions. My approach spans from exploratory data analysis and cleaning to developing production-ready Machine Learning models. I enjoy documenting processes, measuring real model impact, and continuously learning about new technologies. Currently specializing in Python, SQL, ML frameworks (TensorFlow, PyTorch) and MLOps workflows in Azure.",
+    "languages": {
+      "title": "Languages",
+      "spanish": "Spanish",
+      "english": "English",
+      "german": "German",
+      "french": "French",
+      "native": "Native",
+      "c1": "C1",
+      "a2": "A2"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "dataml": "Data Science",
+    "backend": "Machine Learning",
+    "frontend": "MLOps"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewRepo": "View Repository",
+    "viewDemo": "View Demo",
+    "notAvailable": "Demo not available",
+    "project1": {
+      "title": "Blitz Scan - Security Tool",
+      "bullet1": "Web application for security analysis and pentesting",
+      "bullet2": "Collaborative Full-Stack development with React and Flask",
+      "bullet3": "OpenAI API integration for intelligent analysis"
+    },
+    "project2": {
+      "title": "Customer Churn Analysis",
+      "bullet1": "Predictive model to identify at-risk customers",
+      "bullet2": "Metrics visualization and confusion matrix",
+      "bullet3": "Interactive interface with Streamlit"
+    },
+    "project3": {
+      "title": "Transfer Learning in Azure ML",
+      "bullet1": "Transfer learning implementation with TensorFlow",
+      "bullet2": "Structured experiment logging and tracking",
+      "bullet3": "Model comparison and optimization in Azure ML"
+    }
+  },
+  "recognition": {
+    "title": "Certifications",
+    "addCertification": "Add your certifications here",
+    "editHint": "Click on any text to edit",
+    "courseName": "Course name",
+    "issuer": "Issuer",
+    "date": "Date",
+    "viewCertificate": "View certificate",
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "planned": "Planned",
+    "progress": "Progress"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project or proposal? Let's talk!",
+    "response": "I usually respond within 24-48h",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "kaggle": "Kaggle"
+  },
+  "footer": {
+    "rights": "© 2025 Fernando Cristerna",
+    "built": "Built with HTML, Bootstrap and care."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "recognition": "Certifications",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "hero": {
+    "role": "Junior Data Science Engineer",
+    "slogan": "Je construis des projets de données et de ML avec une approche pratique.",
+    "contactBtn": "Contacter",
+    "cvBtn": "Télécharger CV"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description": "Je suis étudiant en IA et Data Science passionné par la transformation des données en solutions pratiques. Mon approche s'étend de l'analyse exploratoire des données et du nettoyage au développement de modèles de Machine Learning prêts pour la production. J'aime documenter les processus, mesurer l'impact réel des modèles et apprendre continuellement de nouvelles technologies. Je me spécialise actuellement en Python, SQL, frameworks ML (TensorFlow, PyTorch) et workflows MLOps dans Azure.",
+    "languages": {
+      "title": "Langues",
+      "spanish": "Espagnol",
+      "english": "Anglais",
+      "german": "Allemand",
+      "french": "Français",
+      "native": "Langue maternelle",
+      "c1": "C1",
+      "a2": "A2"
+    }
+  },
+  "skills": {
+    "title": "Compétences",
+    "dataml": "Data Science",
+    "backend": "Machine Learning",
+    "frontend": "MLOps"
+  },
+  "projects": {
+    "title": "Projets",
+    "viewRepo": "Voir le dépôt",
+    "viewDemo": "Voir la démo",
+    "notAvailable": "Démo non disponible",
+    "project1": {
+      "title": "Blitz Scan - Outil de Sécurité",
+      "bullet1": "Application web pour l'analyse de sécurité et le pentesting",
+      "bullet2": "Développement Full-Stack collaboratif avec React et Flask",
+      "bullet3": "Intégration de l'API OpenAI pour l'analyse intelligente"
+    },
+    "project2": {
+      "title": "Analyse du Churn Client",
+      "bullet1": "Modèle prédictif pour identifier les clients à risque",
+      "bullet2": "Visualisation des métriques et matrice de confusion",
+      "bullet3": "Interface interactive avec Streamlit"
+    },
+    "project3": {
+      "title": "Transfer Learning dans Azure ML",
+      "bullet1": "Implémentation du transfer learning avec TensorFlow",
+      "bullet2": "Enregistrement et suivi structuré des expériences",
+      "bullet3": "Comparaison et optimisation des modèles dans Azure ML"
+    }
+  },
+  "recognition": {
+    "title": "Certifications",
+    "addCertification": "Ajoutez vos certifications ici",
+    "editHint": "Cliquez sur n'importe quel texte pour éditer",
+    "courseName": "Nom du cours",
+    "issuer": "Émetteur",
+    "date": "Date",
+    "viewCertificate": "Voir le certificat",
+    "completed": "Terminé",
+    "inProgress": "En cours",
+    "planned": "Planifié",
+    "progress": "Progression"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Vous avez un projet ou une proposition ? Parlons-en !",
+    "response": "Je réponds généralement dans les 24-48h",
+    "email": "E-mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "kaggle": "Kaggle"
+  },
+  "footer": {
+    "rights": "© 2025 Fernando Cristerna",
+    "built": "Construit avec HTML, Bootstrap et soin."
+  }
+}

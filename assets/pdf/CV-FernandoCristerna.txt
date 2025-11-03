@@ -1,0 +1,16 @@
+CURRICULUM VITAE - PLACEHOLDER
+================================
+
+Fernando Cristerna
+Entry-level Machine Learning Engineer
+Data Science Student
+
+Email: luisscristerna@gmail.com
+LinkedIn: linkedin.com/in/fernandocristerna
+GitHub: github.com/fcristerna
+
+Este es un archivo placeholder para el CV.
+Por favor, reemplace con el archivo PDF real cuando esté disponible.
+
+This is a placeholder file for the CV.
+Please replace with the actual PDF file when available.

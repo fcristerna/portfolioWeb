@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Start",
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "recognition": "Zertifizierungen",
+    "contact": "Kontakt",
+    "language": "Sprache"
+  },
+  "hero": {
+    "role": "Junior Data Science Engineer",
+    "slogan": "Ich entwickle Daten- und ML-Projekte mit praktischem Ansatz.",
+    "contactBtn": "Kontaktieren",
+    "cvBtn": "Lebenslauf herunterladen"
+  },
+  "about": {
+    "title": "Über mich",
+    "description": "Ich bin Student für KI und Data Science mit Leidenschaft für die Transformation von Daten in praktische Lösungen. Mein Ansatz reicht von der explorativen Datenanalyse und -bereinigung bis zur Entwicklung produktionsreifer Machine Learning-Modelle. Ich dokumentiere gerne Prozesse, messe die tatsächliche Auswirkung der Modelle und lerne kontinuierlich neue Technologien. Derzeit spezialisiere ich mich auf Python, SQL, ML-Frameworks (TensorFlow, PyTorch) und MLOps-Workflows in Azure.",
+    "languages": {
+      "title": "Sprachen",
+      "spanish": "Spanisch",
+      "english": "Englisch",
+      "german": "Deutsch",
+      "french": "Französisch",
+      "native": "Muttersprache",
+      "c1": "C1",
+      "a2": "A2"
+    }
+  },
+  "skills": {
+    "title": "Fähigkeiten",
+    "dataml": "Data Science",
+    "backend": "Machine Learning",
+    "frontend": "MLOps"
+  },
+  "projects": {
+    "title": "Projekte",
+    "viewRepo": "Repository anzeigen",
+    "viewDemo": "Demo anzeigen",
+    "notAvailable": "Demo nicht verfügbar",
+    "project1": {
+      "title": "Blitz Scan - Sicherheitstool",
+      "bullet1": "Webanwendung für Sicherheitsanalyse und Pentesting",
+      "bullet2": "Kollaborative Full-Stack-Entwicklung mit React und Flask",
+      "bullet3": "OpenAI API-Integration für intelligente Analysen"
+    },
+    "project2": {
+      "title": "Kundenabwanderungsanalyse",
+      "bullet1": "Prädiktives Modell zur Identifizierung gefährdeter Kunden",
+      "bullet2": "Visualisierung von Metriken und Konfusionsmatrix",
+      "bullet3": "Interaktive Benutzeroberfläche mit Streamlit"
+    },
+    "project3": {
+      "title": "Transfer Learning in Azure ML",
+      "bullet1": "Transfer Learning-Implementierung mit TensorFlow",
+      "bullet2": "Strukturierte Protokollierung und Tracking von Experimenten",
+      "bullet3": "Modellvergleich und -optimierung in Azure ML"
+    }
+  },
+  "recognition": {
+    "title": "Zertifizierungen",
+    "addCertification": "Fügen Sie Ihre Zertifizierungen hier hinzu",
+    "editHint": "Klicken Sie auf einen Text zum Bearbeiten",
+    "courseName": "Kursname",
+    "issuer": "Aussteller",
+    "date": "Datum",
+    "viewCertificate": "Zertifikat anzeigen",
+    "completed": "Abgeschlossen",
+    "inProgress": "In Bearbeitung",
+    "planned": "Geplant",
+    "progress": "Fortschritt"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Haben Sie ein Projekt oder einen Vorschlag? Lassen Sie uns sprechen!",
+    "response": "Ich antworte normalerweise innerhalb von 24-48 Stunden",
+    "email": "E-Mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "kaggle": "Kaggle"
+  },
+  "footer": {
+    "rights": "© 2025 Fernando Cristerna",
+    "built": "Erstellt mit HTML, Bootstrap und Sorgfalt."
+  }
+}

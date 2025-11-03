@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fernando Cristerna - Entry-level Machine Learning Engineer y Data Science Student. Portafolio de proyectos de ML y Data Science.">
+    <title>Fernando Cristerna - ML & Data Science Portfolio</title>
+    
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Fernando Cristerna <span>—</span> Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-i18n="nav.home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-i18n="nav.about">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" data-i18n="nav.skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-i18n="nav.projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recognition" data-i18n="nav.recognition">Reconocimientos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-i18n="nav.contact">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Language Selector -->
+                <div class="dropdown">
+                    <button class="btn btn-outline-light btn-sm dropdown-toggle" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-globe me-1"></i>
+                        <span id="currentLang">ES</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+                        <li><a class="dropdown-item lang-option" href="#" data-lang="es">🇪🇸 Español</a></li>
+                        <li><a class="dropdown-item lang-option" href="#" data-lang="en">🇬🇧 English</a></li>
+                        <li><a class="dropdown-item lang-option" href="#" data-lang="de">🇩🇪 Deutsch</a></li>
+                        <li><a class="dropdown-item lang-option" href="#" data-lang="fr">🇫🇷 Français</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7">
+                    <h1 class="display-3 fw-bold mb-3 fade-in">Fernando Cristerna</h1>
+                    <div class="mb-4">
+                        <span class="h4 hero-roles">Junior Data Science Engineer</span>
+                    </div>
+                    <p class="lead mb-5" data-i18n="hero.slogan">Construyo proyectos de datos y ML con enfoque práctico.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#contact" class="btn btn-accent btn-lg" data-i18n="hero.contactBtn">Contactar</a>
+                        <a href="assets/pdf/CV-FernandoCristerna.pdf" class="btn btn-outline-light btn-lg" download>
+                            <i class="bi bi-download me-2"></i><span data-i18n="hero.cvBtn">Descargar CV</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <div class="hero-img-wrapper">
+                        <img src="assets/img/FotoDocumentos_jpg.jpg" alt="Fernando Cristerna" class="img-fluid rounded-circle hero-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-i18n="about.title">Sobre mí</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="lead text-center mb-5" data-i18n="about.description">
+                        Soy estudiante de IA y Ciencia de Datos apasionado por transformar datos en soluciones prácticas. Mi enfoque abarca desde el análisis exploratorio y limpieza de datos hasta el desarrollo de modelos de Machine Learning listos para producción. Disfruto documentar procesos, medir el impacto real de los modelos y aprender continuamente sobre nuevas tecnologías. Actualmente me especializo en Python, SQL, frameworks de ML (TensorFlow, PyTorch) y flujos de MLOps en Azure.
+                    </p>
+                    <div class="text-center">
+                        <h3 class="h5 mb-3" data-i18n="about.languages.title">Idiomas</h3>
+                        <div class="d-flex justify-content-center gap-3 flex-wrap">
+                            <span class="badge bg-surface px-3 py-2">
+                                <span data-i18n="about.languages.spanish">Español</span> · <span data-i18n="about.languages.native">Nativo</span>
+                            </span>
+                            <span class="badge bg-surface px-3 py-2">
+                                <span data-i18n="about.languages.english">Inglés</span> · C1
+                            </span>
+                            <span class="badge bg-surface px-3 py-2">
+                                <span data-i18n="about.languages.german">Alemán</span> · A2
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-surface">
+        <div class="container">
+            <h2 class="section-title text-center mb-3" data-i18n="skills.title">Habilidades</h2>
+            
+            <!-- Technology Icons Grid -->
+            <div class="skills-icons mb-5">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-icon">
+                            <p class="skill-icon-label">Python</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="JavaScript" class="skill-icon">
+                            <p class="skill-icon-label">Azure</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skill-icon">
+                            <p class="skill-icon-label">Java</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="Kotlin" class="skill-icon">
+                            <p class="skill-icon-label">scikit-learn</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="HTML5" class="skill-icon">
+                            <p class="skill-icon-label">PyTorch</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="CSS3" class="skill-icon">
+                            <p class="skill-icon-label">R</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" class="skill-icon">
+                            <p class="skill-icon-label">TensorFlow</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" class="skill-icon">
+                            <p class="skill-icon-label">NumPy</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" class="skill-icon">
+                            <p class="skill-icon-label">Pandas</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="PostgreSQL" class="skill-icon">
+                            <p class="skill-icon-label">PowerBI</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="skill-icon">
+                            <p class="skill-icon-label">MySQL</p>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2 col-lg-1 text-center">
+                        <div class="skill-icon-wrapper">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="skill-icon">
+                            <p class="skill-icon-label">Git</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Categories -->
+            <div class="row g-4">
+                <!-- Data Science & ML -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-category">
+                        <h3 class="h5 mb-3 text-accent">
+                            <i class="bi bi-graph-up me-2"></i>
+                            <span data-i18n="skills.dataml">Data Science</span>
+                        </h3>
+                        <ul class="skill-list">
+                            <li>Python (NumPy, Pandas, Matplotlib, Seaborn)</li>
+                            <li>Análisis exploratorio y limpieza de datos</li>
+                            <li>Visualización con PowerBI y Python</li>
+                            <li>Jupyter Notebooks y reportes</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- backend & dbs -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-category">
+                        <h3 class="h5 mb-3 text-accent">
+                            <i class="bi bi-database me-2"></i>
+                            <span data-i18n="skills.backend">Machine Learning</span>
+                        </h3>
+                        <ul class="skill-list">
+                            <li>Scikit-learn, TensorFlow & PyTorch</li>
+                            <li>Entrenamiento y optimización de modelos</li>
+                            <li>Feature Engineering y selección</li>
+                            <li>Sistemas predictivos y clasificación</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- extras? -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-category">
+                        <h3 class="h5 mb-3 text-accent">
+                            <i class="bi bi-code-square me-2"></i>
+                            <span data-i18n="skills.frontend">MLOps</span>
+                        </h3>
+                        <ul class="skill-list">
+                            <li>Azure ML Studio y servicios cloud</li>
+                            <li>SQL (MySQL) y bases de datos</li>
+                            <li>Pipelines ETL y experimentos</li>
+                            <li>Git y control de versiones</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects sctn -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-i18n="projects.title">Proyectos</h2>
+            <div class="row g-4">
+                <!-- proyecto 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100">
+                        <div class="project-img">
+                            <img src="assets/img/blitzscanDemo.png" alt="Blitz Scan">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/fcristerna/Blitz-Scan-React-Version-" class="btn btn-sm btn-light" target="_blank" aria-label="View repository">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="h5 mb-3" data-i18n="projects.project1.title">Blitz Scan - Herramienta de Seguridad</h3>
+                            <ul class="project-bullets">
+                                <li data-i18n="projects.project1.bullet1">Aplicación web para análisis de seguridad y pentesting</li>
+                                <li data-i18n="projects.project1.bullet2">Desarrollo colaborativo Full-Stack con React y Flask</li>
+                                <li data-i18n="projects.project1.bullet3">Integración con OpenAI API para análisis inteligente</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span class="tech-chip">Python</span>
+                                <span class="tech-chip">React</span>
+                                <span class="tech-chip">Flask</span>
+                                <span class="tech-chip">OpenAI API</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/fcristerna/Blitz-Scan-React-Version-" class="btn btn-sm btn-accent" target="_blank">
+                                    <i class="bi bi-github me-1"></i><span data-i18n="projects.viewRepo">Ver Repositorio</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proy 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/400x225/22D3EE/ffffff?text=Customer+Churn" alt="Customer Churn Mini">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/usuario/customer-churn-mini" class="btn btn-sm btn-light" target="_blank" aria-label="View repository">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="h5 mb-3" data-i18n="projects.project2.title">Análisis de Churn de Clientes</h3>
+                            <ul class="project-bullets">
+                                <li data-i18n="projects.project2.bullet1">Modelo predictivo para identificar clientes en riesgo</li>
+                                <li data-i18n="projects.project2.bullet2">Visualización de métricas y matriz de confusión</li>
+                                <li data-i18n="projects.project2.bullet3">Interfaz interactiva con Streamlit</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span class="tech-chip">Python</span>
+                                <span class="tech-chip">scikit-learn</span>
+                                <span class="tech-chip">Streamlit</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/usuario/customer-churn-mini" class="btn btn-sm btn-accent" target="_blank">
+                                    <i class="bi bi-github me-1"></i><span data-i18n="projects.viewRepo">Ver Repositorio</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proy 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/400x225/7C5CFC/ffffff?text=TinyTransfer" alt="TinyTransfer-Azure">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/usuario/TinyTransfer-Azure" class="btn btn-sm btn-light" target="_blank" aria-label="View repository">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="h5 mb-3" data-i18n="projects.project3.title">Transfer Learning en Azure ML</h3>
+                            <ul class="project-bullets">
+                                <li data-i18n="projects.project3.bullet1">Implementación de transfer learning con TensorFlow</li>
+                                <li data-i18n="projects.project3.bullet2">Registro y tracking de experimentos estructurados</li>
+                                <li data-i18n="projects.project3.bullet3">Comparación y optimización de modelos en Azure ML</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span class="tech-chip">Python</span>
+                                <span class="tech-chip">TensorFlow</span>
+                                <span class="tech-chip">Azure ML</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/usuario/TinyTransfer-Azure" class="btn btn-sm btn-accent" target="_blank">
+                                    <i class="bi bi-github me-1"></i><span data-i18n="projects.viewRepo">Ver Repositorio</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications sct -->
+    <section id="recognition" class="section bg-surface">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-i18n="recognition.title">Certificaciones</h2>
+            <div class="row g-4 justify-content-center" id="certificationsContainer">
+                
+                <!-- cert 1 -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="cert-card">
+                        <span class="cert-issuer" contenteditable="true" data-placeholder="Institución">Coursera</span>
+                        <h3 class="cert-title" contenteditable="true" data-placeholder="Título del curso">
+                            Machine Learning Specialization by Andrew Ng
+                        </h3>
+                        <div class="cert-meta">
+                            <span class="cert-duration">
+                                <i class="bi bi-clock"></i>
+                                <span>90 horas</span>
+                            </span>
+                            <span class="cert-date">
+                                <i class="bi bi-calendar3"></i>
+                                <span>2025</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- cert 2 -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="cert-card">
+                        <span class="cert-issuer" contenteditable="true" data-placeholder="Institución">IBM</span>
+                        <h3 class="cert-title" contenteditable="true" data-placeholder="Título del curso">
+                            IBM Machine Learning with Python & Scikit-learn Professional Certificate (en progreso)
+                        </h3>
+                        <div class="cert-meta">
+                            <span class="cert-duration">
+                                <i class="bi bi-clock"></i>
+                                <span>134 horas</span>
+                            </span>
+                            <span class="cert-date">
+                                <i class="bi bi-calendar3"></i>
+                                <span>2025</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- contct Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title text-center mb-3" data-i18n="contact.title">Contacto</h2>
+            <p class="text-center mb-5" data-i18n="contact.subtitle">¿Tienes un proyecto o propuesta? ¡Hablemos!</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-3">
+                    <a href="mailto:luisscristerna@gmail.com" class="contact-card d-block text-center text-decoration-none">
+                        <i class="bi bi-envelope-fill display-4 mb-3"></i>
+                        <h3 class="h6" data-i18n="contact.email">Email</h3>
+                        <p class="text-muted small">luisscristerna@gmail.com</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.linkedin.com/in/fernando-cristerna-1161b22a5/" target="_blank" class="contact-card d-block text-center text-decoration-none" aria-label="LinkedIn profile">
+                        <i class="bi bi-linkedin display-4 mb-3"></i>
+                        <h3 class="h6">LinkedIn</h3>
+                        <p class="text-muted small">/in/fernando-cristerna</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://github.com/fcristerna" target="_blank" class="contact-card d-block text-center text-decoration-none" aria-label="GitHub profile">
+                        <i class="bi bi-github display-4 mb-3"></i>
+                        <h3 class="h6">GitHub</h3>
+                        <p class="text-muted small">@fcristerna</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.kaggle.com/fercristerna" target="_blank" class="contact-card d-block text-center text-decoration-none" aria-label="Kaggle profile">
+                        <i class="bi bi-bar-chart-fill display-4 mb-3"></i>
+                        <h3 class="h6">Kaggle</h3>
+                        <p class="text-muted small">@fercristerna</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- foter -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="mb-2" data-i18n="footer.rights">© 2025 Fernando Cristerna</p>
+        </div>
+    </footer>
+
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- i18n System -->
+    <script src="js/i18n.js"></script>
+    <!-- main JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
