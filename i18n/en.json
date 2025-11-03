@@ -64,10 +64,10 @@
       "bullet3": "OpenAI API integration for intelligent analysis"
     },
     "project2": {
-      "title": "Customer Churn Analysis",
-      "bullet1": "Predictive model to identify at-risk customers",
-      "bullet2": "Metrics visualization and confusion matrix",
-      "bullet3": "Interactive interface with Streamlit"
+      "title": "Color Counter with Computer Vision",
+      "bullet1": "Detects objects by color in real-time using camera and HSV ranges",
+      "bullet2": "Motion detection via webcam",
+      "bullet3": "Image processing for counting"
     },
     "project3": {
       "title": "Transfer Learning in Azure ML",

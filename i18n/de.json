@@ -64,10 +64,10 @@
       "bullet3": "OpenAI API-Integration für intelligente Analysen"
     },
     "project2": {
-      "title": "Kundenabwanderungsanalyse",
-      "bullet1": "Prädiktives Modell zur Identifizierung gefährdeter Kunden",
-      "bullet2": "Visualisierung von Metriken und Konfusionsmatrix",
-      "bullet3": "Interaktive Benutzeroberfläche mit Streamlit"
+      "title": "Farbzähler mit Computer Vision",
+      "bullet1": "Erkennt Objekte nach Farbe in Echtzeit mit Kamera und HSV-Bereichen",
+      "bullet2": "Bewegungserkennung über Webcam",
+      "bullet3": "Bildverarbeitung für Zählungen"
     },
     "project3": {
       "title": "Transfer Learning in Azure ML",
