@@ -32,7 +32,25 @@
     "title": "Fähigkeiten",
     "dataml": "Data Science",
     "backend": "Machine Learning",
-    "frontend": "MLOps"
+    "frontend": "MLOps",
+    "datascience": {
+      "item1": "Python (NumPy, Pandas, Matplotlib, Seaborn)",
+      "item2": "Explorative Datenanalyse und -bereinigung",
+      "item3": "Visualisierung mit PowerBI und Python",
+      "item4": "Jupyter Notebooks und Berichte"
+    },
+    "machinelearning": {
+      "item1": "Scikit-learn, TensorFlow & PyTorch",
+      "item2": "Modelltraining und -optimierung",
+      "item3": "Feature Engineering und Auswahl",
+      "item4": "Vorhersagesysteme und Klassifizierung"
+    },
+    "mlops": {
+      "item1": "Azure ML Studio und Cloud-Dienste",
+      "item2": "SQL (MySQL) und Datenbanken",
+      "item3": "ETL-Pipelines und Experimente",
+      "item4": "Git und Versionskontrolle"
+    }
   },
   "projects": {
     "title": "Projekte",
@@ -69,7 +87,8 @@
     "completed": "Abgeschlossen",
     "inProgress": "In Bearbeitung",
     "planned": "Geplant",
-    "progress": "Fortschritt"
+    "progress": "Fortschritt",
+    "hours": "Stunden"
   },
   "contact": {
     "title": "Kontakt",
